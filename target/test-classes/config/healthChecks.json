@@ -1,0 +1,5 @@
+[
+  { "name": "Booking API", "baseUrlKey": "booking.base.url", "healthPath": "/ping", "expectedStatus": 201, "tag": "@api" },
+  { "name": "User API", "baseUrlKey": "user.base.url", "healthPath": "/api/users?page=1", "expectedStatus": 200, "tag": "@api" },
+  { "name": "Exercise Products API", "baseUrlKey": "exercise.base.url", "healthPath": "/api/productsList", "expectedStatus": 200, "tag": "@hybrid" }
+]

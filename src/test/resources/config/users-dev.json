@@ -1,0 +1,4 @@
+{
+  "bookingAdmin": { "username": "admin", "password": "password123" },
+  "roomAdmin": { "username": "admin", "password": "password" }
+}

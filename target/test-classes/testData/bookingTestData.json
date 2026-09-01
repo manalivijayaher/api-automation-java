@@ -1,0 +1,35 @@
+[
+  {
+    "firstname": "Sara",
+    "lastname": "Lee",
+    "totalprice": 180,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-06-01",
+      "checkout": "2026-06-03"
+    },
+    "additionalneeds": "lunch"
+  },
+  {
+    "firstname": "Tom",
+    "lastname": "Nguyen",
+    "totalprice": 260,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-07-15",
+      "checkout": "2026-07-18"
+    },
+    "additionalneeds": "dinner"
+  },
+  {
+    "firstname": "Mia",
+    "lastname": "Patel",
+    "totalprice": 340,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-08-05",
+      "checkout": "2026-08-09"
+    },
+    "additionalneeds": "breakfast"
+  }
+]
