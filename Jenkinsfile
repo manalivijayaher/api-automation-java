@@ -1,4 +1,3 @@
-cat > Jenkinsfile << 'EOF'
 pipeline {
     agent any
     tools {
@@ -8,7 +7,9 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/manalivijayaher/api-automation-java.git'
+                git branch: 'main',
+                    url: 'https://github.com/manalivijayaher/api-automation-java.git',
+                   
             }
         }
         stage('Build') {
@@ -23,8 +24,3 @@ pipeline {
         }
     }
 }
-EOF
-
-git add Jenkinsfile
-git commit -m "Add Jenkinsfile"
-git push
