@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/manalivijayaher/api-automation-java.git',
+                    url: 'https://github.com/manalivijayaher/api-automation-java.git'
                    
             }
         }
