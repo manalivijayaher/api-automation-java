@@ -9,17 +9,16 @@ pipeline {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/manalivijayaher/api-automation-java.git'
-                   
             }
         }
         stage('Build') {
             steps {
-                sh 'mvn clean install'
+                bat 'mvn clean install'
             }
         }
         stage('Test') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
     }
